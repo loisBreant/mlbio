@@ -1,6 +1,5 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -12,6 +11,8 @@ drawings:
 transition: slide-left
 title: Skin Disease Classification
 ---
+
+<video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover -z-10"><source src="/assets/background.mp4" type="video/mp4" /></video>
 
 # Skin Disease Classification
 ## Automated Diagnosis for Dermatology
