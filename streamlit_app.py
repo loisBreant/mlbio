@@ -161,7 +161,7 @@ def main():
                     if img_to_show.max() > 1:
                         img_to_show = img_to_show / 255.0
                         
-                    img_boundary = mark_boundaries(img_to_show, mask, color=(1, 1, 0)) # Yellow boundaries
+                    img_boundary = mark_boundaries(img_to_show, mask, color=(1, 1, 0))
 
                     c1, c2, c3 = st.columns([1, 1, 1])
                     with c2:
