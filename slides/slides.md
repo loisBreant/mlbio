@@ -11,8 +11,8 @@ drawings:
 transition: slide-left
 title: Skin Disease Classification
 ---
-
-<video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover -z-10"><source src="/assets/background.mp4" type="video/mp4" /></video>
+<!-- 
+<video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover -z-10"><source src="/assets/background.mp4" type="video/mp4" /></video> -->
 
 # Skin Disease Classification
 ## Automated Diagnosis for Dermatology
