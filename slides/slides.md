@@ -176,14 +176,12 @@ To ensure trust in clinical settings, we use **LIME** (Local Interpretable Model
 
 <div class="col-span-2 flex gap-4 justify-center items-center">
     <div class="flex flex-col items-center">
-        <!-- PLACEHOLDER FOR ORIGINAL IMAGE -->
-        <div class="w-32 h-32 bg-gray-200 flex items-center justify-center rounded mb-2 text-xs">[Original]</div>
+        <img src="/assets/lime_original.png" class="w-32 h-32 object-cover rounded mb-2 shadow-sm" />
         <span class="text-xs font-bold">Input Lesion</span>
     </div>
     <carbon:arrow-right class="text-2xl opacity-50" />
     <div class="flex flex-col items-center">
-        <!-- PLACEHOLDER FOR LIME EXPLANATION -->
-        <div class="w-32 h-32 bg-yellow-100 border-2 border-yellow-400 flex items-center justify-center rounded mb-2 text-xs">[LIME Mask]</div>
+        <img src="/assets/lime_explanation.png" class="w-32 h-32 object-cover rounded mb-2 shadow-sm border border-yellow-400" />
         <span class="text-xs font-bold">Explanation</span>
     </div>
 </div>
