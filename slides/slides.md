@@ -75,19 +75,30 @@ We utilize the **HAM10000** ("Human Against Machine with 10000 training images")
 
 </div>
 
-<div class="grid grid-cols-2 gap-2">
-  <!-- PLACEHOLDERS FOR DATASET SAMPLES -->
-  <div class="aspect-square bg-gray-200 flex items-center justify-center rounded text-xs text-gray-500">
-    [Sample: Nevi]
+<div class="grid grid-cols-3 gap-2">
+  <div class="flex flex-col items-center">
+    <img src="/assets/sample_nv.jpg" class="w-full aspect-square object-cover rounded shadow" />
+    <span class="text-[10px] mt-1">Nevi (nv)</span>
   </div>
-  <div class="aspect-square bg-gray-200 flex items-center justify-center rounded text-xs text-gray-500">
-    [Sample: Melanoma]
+  <div class="flex flex-col items-center">
+    <img src="/assets/sample_mel.jpg" class="w-full aspect-square object-cover rounded shadow" />
+    <span class="text-[10px] mt-1">Melanoma (mel)</span>
   </div>
-  <div class="aspect-square bg-gray-200 flex items-center justify-center rounded text-xs text-gray-500">
-    [Sample: BKL]
+  <div class="flex flex-col items-center">
+    <img src="/assets/sample_bkl.jpg" class="w-full aspect-square object-cover rounded shadow" />
+    <span class="text-[10px] mt-1">BKL</span>
   </div>
-  <div class="aspect-square bg-gray-200 flex items-center justify-center rounded text-xs text-gray-500">
-    [Sample: BCC]
+  <div class="flex flex-col items-center">
+    <img src="/assets/sample_bcc.jpg" class="w-full aspect-square object-cover rounded shadow" />
+    <span class="text-[10px] mt-1">BCC</span>
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="/assets/sample_akiec.jpg" class="w-full aspect-square object-cover rounded shadow" />
+    <span class="text-[10px] mt-1">AKIEC</span>
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="/assets/sample_vasc.jpg" class="w-full aspect-square object-cover rounded shadow" />
+    <span class="text-[10px] mt-1">VASC</span>
   </div>
 </div>
 
